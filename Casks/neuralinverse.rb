@@ -1,4 +1,4 @@
-cask "neuralinverse-cli" do
+cask "neuralinverse" do
   version "1.0.0-beta"
 
   on_arm do
