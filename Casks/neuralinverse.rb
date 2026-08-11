@@ -1,10 +1,10 @@
 cask "neuralinverse" do
-  version "1.0.0-beta"
+  version "1.0.1-beta"
 
   on_arm do
     url "https://github.com/NeuralInverse/cli-release/releases/download/v#{version}/neuralinverse-darwin-arm64",
         verified: "github.com/NeuralInverse/cli-release/"
-    sha256 "5b519092e8f9e701b2bd56cffdf18a0442186f6cee66a60b006a25c73ba9945c"
+    sha256 "15ebe8fa05f5a344229f2920c1b5d88eb47bb48687bfc9eefb780d2125d388e8"
 
     binary "neuralinverse-darwin-arm64", target: "neuralinverse"
   end
@@ -12,7 +12,7 @@ cask "neuralinverse" do
   on_intel do
     url "https://github.com/NeuralInverse/cli-release/releases/download/v#{version}/neuralinverse-darwin-x64",
         verified: "github.com/NeuralInverse/cli-release/"
-    sha256 "5ed8087c34f5f49577ad90c57f8e1fab421c624e4917328ef8e459abdba3b0ab"
+    sha256 "d2c48a7907caa7f3520ea7b042f69cc64c29154e0b2f4c9893f0ef2691cc17d6"
 
     binary "neuralinverse-darwin-x64", target: "neuralinverse"
   end
